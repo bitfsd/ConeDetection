@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Load configuration parameters -->
+  <rosparam command="load" file="$(find ppyolo)/config/ppyolo.yaml" />
+
+  <!-- Start the node -->
+  <node name="pp_infer" pkg="ppyolo"
+        type="pp_infer_remake.py" output="screen" />
+</launch>
