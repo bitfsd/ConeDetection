@@ -27,8 +27,8 @@
 `Paddle Inference`功能特性丰富，性能优异，针对不同平台不同的应用场景进行了深度的适配优化，做到高吞吐、低时延，保证了飞桨模型在服务器端即训即用，快速部署。
 
 ### **Paddle Inference的高性能实现**
-- 内置高性能的**CPU/GPU Kernel**
-- **子图集成TensorRT**加快GPU推理速度
+- 内置高性能的 **CPU/GPU Kernel**
+- **子图集成TensorRT** 加快GPU推理速度
 
 ## **1、环境准备**
 - ubuntu 18.04
