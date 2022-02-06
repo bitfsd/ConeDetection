@@ -14,7 +14,7 @@
 
 Subscriber:
 
-    camera_topic_name: /pylon_camera_old/image_raw
+    camera_topic_name: /camera/image_raw
 
 Publisher:
 

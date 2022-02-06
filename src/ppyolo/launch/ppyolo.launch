@@ -5,5 +5,5 @@
 
   <!-- Start the node -->
   <node name="pp_infer" pkg="ppyolo"
-        type="pp_infer_remake.py" output="screen" />
+        type="pp_infer.py" output="screen" />
 </launch>
