@@ -33,7 +33,7 @@ Because the training operator is directly based on `PaddlePaddle`,  `Paddle Infl
 ## High performance implementation of Paddle Inference
 
 * High-performance **CPU / GPU kernel.**
-* **Subgraph integration tensorrt ** speeds up GPU inference.
+* **Subgraph integration tensorrt** speeds up GPU inference.
 
 ## Usage
 
