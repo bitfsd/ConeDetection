@@ -4,19 +4,19 @@
 
 ## **功能包架构**
 ```
-* ConeDetection					(ros 功能包)
-	* install_scripts
-       * cv_bridge/
-       * install_ppyolo.sh
-    * src/ppyolo
-       * config
-         * ppyolo.yaml			(参数文件)
-       * launch
-         * ppyolo.launch		(启动文件)
-       * scripts
-         * camera.py			(测试代码)
-         * download_model.sh	(测试模型)
-         * pp_infer.py			(主程序)
+-|ConeDetection				(ros 功能包)
+ |-install_scripts
+   -cv_bridge/
+   -install_ppyolo.sh
+ |src/ppyolo
+   |-config
+     -ppyolo.yaml			(参数文件)
+   |-launch
+     -ppyolo.launch			(启动文件)
+   |-scripts
+     -camera.py				(用于测试)
+     -download_model.sh		(用于测试)
+     -pp_infer.py			(主程序)
 ```
 
 

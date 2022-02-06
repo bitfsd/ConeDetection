@@ -7,19 +7,19 @@ This package is based on `Python3` and implements `Paddle Inference` on ROS, whi
 ## Structure
 
 ```
-* ConeDetection					(ros package)
-	* install_scripts
-       * cv_bridge/
-       * install_ppyolo.sh
-    * src/ppyolo
-       * config
-         * ppyolo.yaml			(configeration file)
-       * launch
-         * ppyolo.launch		(launch file)
-       * scripts
-         * camera.py			(for test)
-         * download_model.sh	(for test)
-         * pp_infer.py			(main code)
+-|ConeDetection				(ros package)
+ |-install_scripts
+   -cv_bridge/
+   -install_ppyolo.sh
+ |src/ppyolo
+   |-config
+     -ppyolo.yaml			(configeration file)
+   |-launch
+     -ppyolo.launch			(launch file)
+   |-scripts
+     -camera.py				(for test)
+     -download_model.sh		(for test)
+     -pp_infer.py			(main code)
 ```
 
 ## Paddle Inference
