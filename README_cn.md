@@ -85,3 +85,6 @@ $ rosrun ppyolo camera.py
 $ roslaunch ppyolo pp_infer.py
 ```
 
+## **5、训练自己的数据集**
+请参考在AI Studio上的项目 https://aistudio.baidu.com/aistudio/projectdetail/3428082  
+AI Studio提供免费的 V100 GPU算力，能够满足绝大多数目标检测任务需求

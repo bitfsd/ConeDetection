@@ -103,5 +103,6 @@ $ rosrun ppyolo camera.py
 $ roslaunch ppyolo pp_infer.py
 ```
 
-
-
+## **5、Train your own datasets**
+Please refer to the project on AI Studio: https://aistudio.baidu.com/aistudio/projectdetail/3428082  
+AI Studio platform provides free V100 GPU, which can satisfy most detection missions.  
